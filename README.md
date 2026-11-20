@@ -215,7 +215,7 @@ INFO | fusion | FUSION BOT conectado como SeuBot#0000 (ID: 000000000000000000) |
 
 ---
 
-## 4. Configuração das Variáveis de Ambiente (.env) e .gitignore
+## 4. Configuração das Variáveis de Ambiente (.env).
 
 ### Modelo `.env`
 
@@ -259,42 +259,6 @@ PUBLIC_BASE_URL=[https://api.seudominio.com.br](https://api.seudominio.com.br)
 # ==========================================
 SOURCEMOD_API_SECRET=CHAVE_SECRETA_COMPARTILHADA_COM_O_SERVIDOR_CSGO
 ```
-
-### `.gitignore` Recomendado
-
-Certifique-se de que seu repositório tenha um `.gitignore` contendo:
-
-```gitignore
-# Ambiente e segredos
-.env
-.env.*
-!.env.example
-
-# Ambientes virtuais Python
-venv/
-.venv/
-env/
-
-# Cache e arquivos compilados Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-
-# Bancos locais de teste e logs
-*.db
-*.sqlite
-*.sqlite3
-*.log
-logs/
-
-# IDEs e Sistema Operacional
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-```
-
 ---
 
 ## 5. Configuração no Discord Developer Portal
