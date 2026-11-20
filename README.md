@@ -54,7 +54,6 @@ O **FUSION BOT** executa três serviços assíncronos de forma concorrente dentr
 fusion_bot/
 ├── main.py                      # Ponto de entrada: inicializa Discord Bot, FastAPI e Scheduler
 ├── requirements.txt             # Dependências Python do projeto
-├── .env                         # Variáveis de ambiente locais/produção (NÃO commitar no Git)
 ├── .env.example                 # Modelo de variáveis de ambiente
 ├── .gitignore                   # Regras de arquivos ignorados pelo Git
 ├── alembic.ini                  # Configuração do Alembic para migrations
