@@ -586,11 +586,3 @@ sudo certbot --nginx -d api.seudominio.com.br
 ```
 
 ---
-
-## 11. Checklist Final de Segurança Antes do Deploy
-
-- [ ] Arquivo `.env` incluído no `.gitignore` e nunca enviado para repositórios públicos ou privados.
-- [ ] `ENCRYPTION_KEY` exclusiva gerada para produção e armazenada em backup seguro.
-- [ ] Senhas de banco de dados, tokens do Discord/Mercado Pago e senhas RCON rotacionados caso tenham sido expostos durante testes ou capturas de tela.
-- [ ] Porta do MySQL (`3306`) restrita apenas aos IPs autorizados no firewall (`ufw`).
-- [ ] Webhooks do Mercado Pago configurados com URL `https://` válida.
