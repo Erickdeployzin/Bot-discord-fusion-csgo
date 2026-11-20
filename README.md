@@ -1,4 +1,4 @@
-# FUSION BOT — Sistema Comercial de Gerenciamento Discord & CS:GO Legacy
+# FUSION BOT — Sistema Lite de Gerenciamento Discord & CS:GO Legacy
 
 ![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![discord.py](https://img.shields.io/badge/discord.py-2.x-5865F2?style=for-the-badge&logo=discord&logoColor=white)
