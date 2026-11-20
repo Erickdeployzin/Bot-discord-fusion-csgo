@@ -11,21 +11,6 @@ Sistema completo de gerenciamento de comunidades Discord desenvolvido **100% em 
 
 ---
 
-## Sumário
-
-1. [Arquitetura e Módulos do Sistema](#1-arquitetura-e-módulos-do-sistema)
-2. [Estrutura de Diretórios](#2-estrutura-de-diretórios)
-3. [Instalação Local e Preparação do Banco de Dados](#3-instalação-local-e-preparação-do-banco-de-dados)
-4. [Configuração das Variáveis de Ambiente (.env) e .gitignore](#4-configuração-das-variáveis-de-ambiente-env-e-gitignore)
-5. [Configuração no Discord Developer Portal](#5-configuração-no-discord-developer-portal)
-6. [Integração CS:GO Legacy (A2S, RCON e SourceMod)](#6-integração-csgo-legacy-a2s-rcon-e-sourcemod)
-7. [Integração Mercado Pago (PIX Automático e Webhooks)](#7-integração-mercado-pago-pix-automático-e-webhooks)
-8. [Guia Completo de Erros Conhecidos, Possíveis Falhas e Soluções](#8-guia-completo-de-erros-conhecidos-possíveis-falhas-e-soluções)
-9. [Roadmap de Melhorias Técnicas (Código, Segurança e Performance)](#9-roadmap-de-melhorias-técnicas-código-segurança-e-performance)
-10. [Execução 24/7 em Produção (Systemd + Nginx SSL)](#10-execução-247-em-produção-systemd--nginx-ssl)
-
----
-
 ## 1. Arquitetura e Módulos do Sistema
 
 O **FUSION BOT** executa três serviços assíncronos de forma concorrente dentro do mesmo *event loop* (`asyncio.gather` em `main.py`):
